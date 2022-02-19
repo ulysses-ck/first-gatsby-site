@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "My Gatsby Site",
-  "author": "Ulises688apaza",
+  "author": "ulysses-ck",
   "keywords": [
     "gatsby"
   ],
@@ -16,7 +16,11 @@
   },
   "dependencies": {
     "gatsby": "^4.7.2",
+    "gatsby-plugin-image": "^2.7.0",
+    "gatsby-plugin-sharp": "^4.7.0",
+    "gatsby-source-filesystem": "^4.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  }
+  },
+  "packageManager": "yarn@3.1.1"
 }
