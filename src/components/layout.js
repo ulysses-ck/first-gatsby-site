@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { Link, graphql, useStaticQuery } from 'gatsby';
+import * as React from 'react'
+import { Link, graphql, useStaticQuery } from 'gatsby'
 import {
     container,
     heading,
@@ -7,7 +7,7 @@ import {
     navLinkItem,
     navLinkText,
     siteTitle
-} from './layout.module.css';
+} from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
 
@@ -49,7 +49,7 @@ const Layout = ({ pageTitle, children }) => {
                 {children}
             </main>
         </div>
-    );
-};
+    )
+}
 
-export default Layout;
+export default Layout

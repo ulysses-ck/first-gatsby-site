@@ -1,7 +1,7 @@
-import * as React from 'react';
-import { graphql } from 'gatsby';
-import Layout from '../../components/layout';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
+import * as React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../../components/layout'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 
 const BlogPost = ({ data }) => {
     return (
@@ -11,8 +11,8 @@ const BlogPost = ({ data }) => {
                 {data.mdx.body}
             </MDXRenderer>
         </Layout>
-    );
-};
+    )
+}
 
 export const query = graphql`
   query ($id: String) {
@@ -24,6 +24,6 @@ export const query = graphql`
       body
     }
   }
-`;
+`
 
-export default BlogPost;
+export default BlogPost
