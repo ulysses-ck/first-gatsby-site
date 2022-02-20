@@ -11,7 +11,7 @@ const IndexPage = () => {
         src="../images/ironman.jpg"
       />
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
